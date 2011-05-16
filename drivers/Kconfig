@@ -146,5 +146,7 @@ source "drivers/devfreq/Kconfig"
 
 source "drivers/gator/Kconfig"
 
+source "drivers/modem/Kconfig"
+
 endmenu
 
