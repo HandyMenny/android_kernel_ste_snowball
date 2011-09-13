@@ -84,6 +84,7 @@
 #include "devices-db8500.h"
 #include "board-mop500.h"
 #include "board-mop500-regulators.h"
+#include "board-ux500-usb.h"
 #include "board-mop500-bm.h"
 #if defined(CONFIG_CW1200) || defined(CONFIG_CW1200_MODULE)
 #include "board-mop500-wlan.h"
@@ -325,6 +326,7 @@ static struct ab8500_platform_data ab8500_platdata = {
 	.fg		= &ab8500_fg_plat_data,
 	.chargalg	= &ab8500_chargalg_plat_data,
 	.gpio		= &ab8500_gpio_pdata,
+	.usb		= &abx500_usbgpio_plat_data,
 	.sysctrl	= &ab8500_sysctrl_pdata,
 	.pwmled		= &ab8500_pwmled_plat_data,
 #ifdef CONFIG_INPUT_AB8500_ACCDET
