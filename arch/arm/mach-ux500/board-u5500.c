@@ -46,6 +46,7 @@
 #include <mach/setup.h>
 #include <mach/db5500-keypad.h>
 #include <mach/crypto-ux500.h>
+#include <mach/usb.h>
 
 #include "pins-db5500.h"
 #include "pins.h"
@@ -53,6 +54,7 @@
 #include "board-u5500.h"
 #include "board-u5500-bm.h"
 #include "board-u5500-wlan.h"
+#include "board-ux500-usb.h"
 
 #ifdef CONFIG_SENSORS_LSM303DLH
 /*
