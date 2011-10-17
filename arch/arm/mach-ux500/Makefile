@@ -3,8 +3,9 @@
 #
 
 obj-y				:= clock.o cpu.o devices.o \
-				   devices-common.o \
-				   id.o pins.o usb.o timer.o reboot_reasons.o
+				   devices-common.o id.o pins.o \
+				   usb.o reboot_reasons.o timer.o \
+				   uart-db8500.o
 obj-y				+= pm/
 obj-$(CONFIG_CACHE_L2X0)	+= cache-l2x0.o
 obj-$(CONFIG_CPU_IDLE) 		+= cpuidle.o
