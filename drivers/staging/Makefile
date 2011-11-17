@@ -59,3 +59,4 @@ obj-$(CONFIG_PHONE)		+= telephony/
 obj-$(CONFIG_RAMSTER)		+= ramster/
 obj-$(CONFIG_USB_WPAN_HCD)	+= ozwpan/
 obj-$(CONFIG_CW1200)   		+= cw1200/
+obj-$(CONFIG_U8500_MMIO)	+= mmio/
